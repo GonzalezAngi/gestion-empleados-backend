@@ -31,6 +31,7 @@ public class Empleado {
         this.email = email;
     }
 
+    //getter and setter
     public Long getId() {
         return id;
     }
