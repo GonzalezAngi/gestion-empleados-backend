@@ -17,7 +17,7 @@ public class Empleado {
     @Column(name = "apellido", length = 60, nullable = false)
     private String apellido;
 
-    @Column(name = "apellido", length = 60, nullable = false, unique = true)
+    @Column(name = "email", length = 60, nullable = false, unique = true)
 //unique, solo va a tener un valor, es decir es único
     private String email;
 
